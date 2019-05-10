@@ -3,7 +3,7 @@ MAINTAINER Adriel Kloppenburg
 
 LABEL caddy_version="1.0.0" architecture="amd64"
 
-ARG plugins=http.filter,http.git,tls.dns.cloudflare
+ARG plugins=http.git,tls.dns.cloudflare
 
 RUN apk add --no-cache \
         git \
