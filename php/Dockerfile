@@ -1,7 +1,7 @@
 FROM alpine:latest
 MAINTAINER Adriel Kloppenburg
 
-LABEL caddy_version="1.0.0" architecture="amd64"
+LABEL caddy_version="1.0.1" architecture="amd64"
 
 ARG plugins=http.git,tls.dns.cloudflare
 
