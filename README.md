@@ -1,4 +1,8 @@
 # Caddy
+This image uses the old Caddy v1, Caddy 2 is out and now has an [offical container](https://hub.docker.com/_/caddy).
+I won't be updating this image to v2.
+
+---
 
 A [Docker](http://docker.com) image for [Caddy](http://caddyserver.com). This image includes the [git](https://caddyserver.com/docs/http.git) and [cloudflare](https://caddyserver.com/docs/tls.dns.cloudflare) plugins.  Plugins can also be configured via the `plugins` build arg.
 
