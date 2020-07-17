@@ -18,6 +18,7 @@ RUN apk add --no-cache \
         php7-gd \
         php7-ctype \
         php7-zip \
+        php7-simplexml \
         php7-xml \
         php7-iconv \
         php7-sqlite3 \
